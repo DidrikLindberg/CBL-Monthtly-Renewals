@@ -3,10 +3,10 @@ from datetime import datetime
 import os
 from dateutil.relativedelta import relativedelta
 
-def execute_contracts(xlsx):
+def execute_contracts(xlsx1):
     
 
-    df = pd.read_excel(xlsx)
+    df = pd.read_excel(xlsx1)
 
     # Delete Column "Contract Start Date"
     del df['Contract Start Date']
