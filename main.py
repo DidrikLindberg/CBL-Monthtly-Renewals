@@ -17,7 +17,7 @@ def main():
         """
         Start with the Corporate Renewals file
 
-        1. Upload the Renewals file, and click "Generate Contracts".
+        1. Upload the Renewals file in the first upload container, and click "Generate Contracts".
         2. Upload the Contract Insert Success file, and click "Generate Opportunities".
         3. Upload the Opportunity Insert Success file, and a Subscription Export in the second uploader, and click "Generate OLIs".
         4. Redo steps 1-3 with the PTT files.
